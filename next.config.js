@@ -5,7 +5,7 @@ const nextConfig = {
     domains: [
       "https://s3-symbol-logo.tradingview.com",
       "assets.coingecko.com",
-      "bd-piano-live.mystagingwebsite.com",
+      "archive.businessday.ng",
     ],
   },
   // async rewrites() {
