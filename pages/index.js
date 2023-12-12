@@ -122,17 +122,21 @@ Index.getLayout = function getLayout(page) {
 export const getStaticProps = async () => {
   try {
     const { data } = await axios({
-      baseURL: "https://bd-piano-live.mystagingwebsite.com",
+      baseURL: "https://archive.businessday.ng",
       method: "GET",
       url: "/wp-json/wp/v2/posts",
       params: {
-        include: "535495,535506,535510",
+        include: "290481",
       },
     });
 
+    const myArticules = await Promise.all(
+      data.map((articule) => getNeededInfo(articule))
+    );
+    console.log({ myArticules });
     return {
       props: {
-        list: data.map((articule) => getNeededInfo(articule)),
+        list: myArticules,
       },
       revalidate: 5 * 60,
     };

@@ -1,4 +1,5 @@
 // config
+import axios from "axios";
 import { defaultSettings, cookiesKey } from "../config";
 
 // ----------------------------------------------------------------------
@@ -42,9 +43,23 @@ const getData = (value) => {
   return value;
 };
 
-export const getNeededInfo = (article) => {
-  const { id, date, content, excerpt, slug, title, status, type, parsely } =
-    article;
+export const getNeededInfo = async (article) => {
+  const {
+    id,
+    date,
+    content,
+    excerpt,
+    slug,
+    title,
+    status,
+    type,
+    featured_media,
+  } = article;
+  console.log({ featured_media });
+  const { data } = await axios.get(
+    "https://archive.businessday.ng/wp-json/wp/v2/media/" + featured_media
+  );
+  console.log({ data });
   return {
     id,
     date,
@@ -55,6 +70,6 @@ export const getNeededInfo = (article) => {
     title: title.rendered,
     status,
     type,
-    image: parsely.meta.image.url,
+    image: data.source_url,
   };
 };

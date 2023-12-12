@@ -87,7 +87,7 @@ export const getServerSideProps = async (ctx) => {
   const url = ctx.req.url;
   try {
     const { data } = await axios({
-      baseURL: "https://bd-piano-live.mystagingwebsite.com",
+      baseURL: "https://archive.businessday.ng",
       method: "GET",
       url: "/wp-json/wp/v2/posts",
       params: {
@@ -97,11 +97,12 @@ export const getServerSideProps = async (ctx) => {
     console.log({ data });
     return {
       props: {
-        article: getNeededInfo(data[0]),
+        article: await getNeededInfo(data[0]),
         url: `www.${config.domain}` + url,
       },
     };
   } catch (err) {
+    console.log({ err });
     return {
       notFound: true,
     };
