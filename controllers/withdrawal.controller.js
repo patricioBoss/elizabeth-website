@@ -13,7 +13,7 @@ export const makeWithdrawal = async (req, res) => {
   const currentBalance = req.profile.accountBalance;
   const { amount, currency } = req.body;
   console.log(req.body);
-  return response(res, 401, "Upgrade your s9 connection to bronze", null);
+  return response(res, 401, "ERR: Activate your bronze level", null);
   /**
  * 
  
