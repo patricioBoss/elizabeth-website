@@ -50,13 +50,13 @@ const Hero = () => {
           </a> */}
         </div>
         <p className=" text-lg mt-[16px] text-center">
-          <span className=" font-bold">Direct:&nbsp;&nbsp;</span> +1(562)
-          396-5148
+          <span className=" font-bold">Direct:&nbsp;&nbsp;</span> +1(424)
+          279-3916
         </p>
         <div className=" flex justify-center mt-[30px]">
-          {/* +15623965148 */}
+          {/* +14242793916 */}
           <a
-            href="https://wa.me/+15623965148"
+            href="https://wa.me/+14242793916"
             target="_blank"
             rel="noreferrer"
             className=" py-4 px-[48px] bg-[#3182c1] text-[19px]  rounded-full"

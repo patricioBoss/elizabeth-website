@@ -84,7 +84,7 @@ const footerLinks = [
   },
   {
     name: "Contact Us",
-    href: "https://wa.me/15623965148",
+    href: "https://wa.me/14242793916",
   },
 ];
 //+14242793916

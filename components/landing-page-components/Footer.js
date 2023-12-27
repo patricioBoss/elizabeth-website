@@ -149,11 +149,11 @@ const Footer = () => {
                 </a>
                 <a
                   className="hover:opacity-75"
-                  href="https://wa.me/15623965148"
+                  href="https://wa.me/14242793916"
                 >
                   Chat on Wastapp
                   <br />
-                  (+1(562) 396-5148)
+                  (+1(424) 279-3916)
                 </a>
               </nav>
             </div>
