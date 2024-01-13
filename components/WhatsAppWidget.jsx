@@ -10,7 +10,7 @@ const WhatsAppWidget = () => {
       buttonClassName="left-[2rem] "
       onClose={() => setOpen(false)}
       onClick={() => setOpen(true)}
-      phoneNumber="14242793916"
+      phoneNumber="16502419379"
       chatboxClassName={`left-[2rem]  ${
         open ? "animate-bounce-in" : " animate-bounce-out"
       }`}

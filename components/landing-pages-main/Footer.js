@@ -84,10 +84,10 @@ const footerLinks = [
   },
   {
     name: "Contact Us",
-    href: "https://wa.me/14242793916",
+    href: "https://wa.me/16502419379",
   },
 ];
-//+14242793916
+//+16502419379
 const Footer = () => {
   return (
     <div className=" bg-[#F2F2F2] py-[45px]">
