@@ -176,7 +176,7 @@ const serviceTeam = (
     </h6>
     <div>
       <p className=" text-base">
-        <span className=" font-semibold">Phone:</span> +1(650)241-9379
+        <span className=" font-semibold">Phone:</span> +1(234)719-3267
       </p>
       <p className=" text-base">
         <span className=" font-semibold">Email:</span>
@@ -196,7 +196,7 @@ const MyLocation = (
           <br />
           Washington, DC 20005
           <br />
-          Direct: +1(650)241-9379
+          Direct: +1(234)719-3267
         </p>
       </div>
       <div className=" md:flex-1">
