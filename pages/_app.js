@@ -179,7 +179,7 @@ export default function MyApp(props) {
       });
         `}
       </Script> */}
-      <Script src="//eu.fw-cdn.com/12579744/608161.js" chat="true" />
+      {/* <Script src="//eu.fw-cdn.com/12579744/608161.js" chat="true" /> */}
     </>
   );
 }
