@@ -14,8 +14,7 @@ export const makeWithdrawal = async (req, res) => {
   const { amount, currency } = req.body;
   console.log(req.body);
   return response(res, 401, "Upgrade your account to sliver level", null);
-  /**
- * 
+
  
   try {
     // if (parseInt(amount) < 600) {
@@ -63,7 +62,6 @@ export const makeWithdrawal = async (req, res) => {
     return response(res, 500, "server error", err.message);
   }
 
- */
 };
 
 export const approveWithdrawal = async (req, res) => {
