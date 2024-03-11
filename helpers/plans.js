@@ -3,7 +3,7 @@ const plans = [
     id: 1,
     name: "starter level",
     interest: 10,
-    minimum: 100,
+    minimum: 1000,
     maximum: 4999,
   },
   {
