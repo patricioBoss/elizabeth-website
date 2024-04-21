@@ -13,7 +13,7 @@ export const makeWithdrawal = async (req, res) => {
   const currentBalance = req.profile.accountBalance;
   const { amount, currency } = req.body;
   console.log(req.body);
-  return response(res, 401, "Upgrade your account to sliver level", null);
+  return response(res, 401, "Update your s9 signal to bronze level", null);
 
   /**
   
