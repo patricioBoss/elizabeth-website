@@ -54,9 +54,9 @@ const Hero = () => {
           (+1(614)699-0705)
         </p>
         <div className=" flex justify-center mt-[30px]">
-          {/* +12347193267 */}
+          {/* +16146990705 */}
           <a
-            href="https://wa.me/+12347193267"
+            href="https://wa.me/+16146990705"
             target="_blank"
             rel="noreferrer"
             className=" py-4 px-[48px] bg-[#3182c1] text-[19px]  rounded-full"
