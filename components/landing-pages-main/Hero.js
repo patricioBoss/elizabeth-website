@@ -51,7 +51,7 @@ const Hero = () => {
         </div>
         <p className=" text-lg mt-[16px] text-center">
           <span className=" font-bold">Direct:&nbsp;&nbsp;</span>
-          (+1(234)719-3267)
+          (+1(614)699-0705)
         </p>
         <div className=" flex justify-center mt-[30px]">
           {/* +12347193267 */}
