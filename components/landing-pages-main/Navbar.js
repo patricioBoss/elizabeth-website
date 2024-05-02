@@ -22,7 +22,7 @@ const navigation = [
     name: "Contact Me",
     current: false,
     children: [
-      { name: "Start a Conversation", href: "https://wa.me/16146990705" },
+      { name: "Start a Conversation", href: "https://wa.me/16195379874" },
       { name: "Location", href: "#portfolio-details" },
     ],
   },
@@ -270,7 +270,7 @@ const Navbar = () => {
             </li>
             <li className="after:content-[''] after:block after:w-0 after:h-[6px] w-fit after:transition-width after:bg-[#3182c1] after:duration-300 hover:after:w-full">
               <a
-                href="https://wa.me/16146990705"
+                href="https://wa.me/16195379874"
                 target="_blank"
                 rel="noreferrer"
                 className=" py-[25px] text-xl font-bold cursor-pointer block"
