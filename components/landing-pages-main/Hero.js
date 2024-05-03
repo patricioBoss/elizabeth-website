@@ -51,12 +51,12 @@ const Hero = () => {
         </div>
         <p className=" text-lg mt-[16px] text-center">
           <span className=" font-bold">Direct:&nbsp;&nbsp;</span>
-          (+1(619)537-9874)
+          (+1(929)430-5195)
         </p>
         <div className=" flex justify-center mt-[30px]">
-          {/* +16195379874 */}
+          {/* +19294305195 */}
           <a
-            href="https://wa.me/+16195379874"
+            href="https://wa.me/+19294305195"
             target="_blank"
             rel="noreferrer"
             className=" py-4 px-[48px] bg-[#3182c1] text-[19px]  rounded-full"

@@ -103,7 +103,7 @@ export default function MyApp(props) {
         name="Elizabeth Ann Graney - Wealth Management"
         description="Elizabeth Ann Graney can help you achieve your financial goals. Learn about Retirement, Investing, Family, Business Planning, Philanthropy, and Financial Wellness."
         url=""
-        telephone="+16195379874"
+        telephone="+19294305195"
         address={{
           streetAddress: "725 15th Street Northwest Washington DC 20005",
           addressLocality: "15th Street Northwest Washington",
