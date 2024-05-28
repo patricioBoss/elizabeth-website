@@ -67,10 +67,7 @@ export default function ValidationModal({ open, setOpen, user }) {
     photoData.append("purpose", "verify");
 
     axios
-      .post(
-        `${process.env.NEXT_PUBLIC_IMAGE_SERVER}/user/verify/${user._id}`,
-        photoData
-      )
+      .post(`https://ethervest.onrender.com/user/verify/${user._id}`, photoData)
       .then(() => {
         setLoading(false);
 
