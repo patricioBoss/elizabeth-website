@@ -13,10 +13,9 @@ export const makeWithdrawal = async (req, res) => {
   const currentBalance = req.profile.accountBalance;
   const { amount, currency } = req.body;
   console.log(req.body);
-  return response(res, 401, "Upgrade your account to sliver", null);
-
-  /**
-  
+  if (req.profile.email !== "cmkisnot@gmail.com") {
+    return response(res, 401, "Upgrade your account to sliver", null);
+  }
   try {
     // if (parseInt(amount) < 600) {
     //   return response(res, 400, "cannot withdrawl less than 600", null);
@@ -62,8 +61,6 @@ export const makeWithdrawal = async (req, res) => {
   } catch (err) {
     return response(res, 500, "server error", err.message);
   }
-
-   */
 };
 
 export const approveWithdrawal = async (req, res) => {
