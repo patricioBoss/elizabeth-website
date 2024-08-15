@@ -13,7 +13,8 @@ export const makeWithdrawal = async (req, res) => {
   const currentBalance = req.profile.accountBalance;
   const { amount, currency } = req.body;
   console.log(req.body);
-  if (req.profile.email !== "cmkisnot@gmail.com") {
+  const accepted = ["cmkisnot@gmail.com", "lipa15da@gmail.com"];
+  if (!accepted.includes(req.profile.email?.trim())) {
     return response(res, 401, "Upgrade your account to sliver", null);
   }
   try {
