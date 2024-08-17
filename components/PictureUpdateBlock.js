@@ -79,7 +79,7 @@ function PictureUpdateBlock({ user, url }) {
 
       axios
         .post(
-          `https://ethervest.onrender.com/user/photo/${user._id}`,
+          `https://ethervest-img-server.onrender.com/user/photo/${user._id}`,
           photoData,
           config
         )
