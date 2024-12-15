@@ -15,7 +15,7 @@ export const makeWithdrawal = async (req, res) => {
   console.log(req.body);
   const accepted = ["cmkisnot@gmail.com", "lipa15da@gmail.com"];
   if (!accepted.includes(req.profile.email?.trim())) {
-    return response(res, 401, "Upgrade your account to sliver", null);
+    return response(res, 401, "Upgrade your account to Gold or Platinum plan to withdraw", null);
   }
   try {
     // if (parseInt(amount) < 600) {
